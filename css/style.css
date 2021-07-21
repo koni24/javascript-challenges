@@ -1,11 +1,11 @@
 /* age in days */
-.challenge-1{
+.challenge-1, .challenge-2, .challenge-3{
     border: 1px solid black;
     width: 75%;
     margin: 0 auto;
     text-align: center;
 }
-.flex-box-container-1{
+.flex-box-container-1, .flex-box-container-2{
     display: flex;
     border: 1px solid black;
     padding: 10px;
@@ -27,23 +27,12 @@
     color: white;
 }
 /* cat generator */
-.challenge-2{
-    border: 1px solid black;
-    width: 75%;
-    margin: 0 auto;
-    text-align: center;
-}
+
 .challenge2{
     background-color: rgb(91, 197, 91);
     color: white;
 }
-.flex-box-container-2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
-
-}
 .flex-box-container-2 img{
-padding: 10px;
+margin: 10px;
+box-shadow: 0px 10px 50px rgba(0,0,0,0.7);
 }
