@@ -42,6 +42,7 @@ function rpsGame(yourChoice){
 
     rpsFrontEnd(yourChoice.id, botChoice, message);
 }
+
 function randToRpsInt(){
     return Math.floor(Math.random()*3);
 }
@@ -50,7 +51,7 @@ function numberToChoice(number){
 }
 function decideWinner(yourChoice,computerChoice){
     var rpsDatabase={
-        'rock':{'scissors':1,'rock':0.5,'paper':0},
+        'rock':{'scissors':0,'rock':0.5,'paper':1},
         'paper':{'scissors':0,'rock':1,'paper':0.5},
         'scissors':{'scissors':0.5,'rock':0,'paper':1}
        
@@ -95,3 +96,4 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage){
     document.getElementById('flex-box-rps-div').appendChild(botDiv);
 
 }
+
